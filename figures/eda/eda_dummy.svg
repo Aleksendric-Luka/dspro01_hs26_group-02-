@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Exploratory Data Analysis Dummy Plot</title>
+  <desc id="desc">A simple scatter plot placeholder for exploratory data analysis.</desc>
+  <rect width="640" height="400" fill="#f7f9fb"/>
+  <text x="320" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Exploratory Data Analysis</text>
+  <line x1="86" y1="322" x2="570" y2="322" stroke="#334155" stroke-width="2"/>
+  <line x1="86" y1="322" x2="86" y2="82" stroke="#334155" stroke-width="2"/>
+  <text x="328" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Feature A</text>
+  <text x="28" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569" transform="rotate(-90 28 204)">Feature B</text>
+  <circle cx="138" cy="284" r="8" fill="#2563eb"/>
+  <circle cx="184" cy="246" r="8" fill="#2563eb"/>
+  <circle cx="232" cy="268" r="8" fill="#2563eb"/>
+  <circle cx="278" cy="214" r="8" fill="#2563eb"/>
+  <circle cx="326" cy="236" r="8" fill="#2563eb"/>
+  <circle cx="374" cy="172" r="8" fill="#2563eb"/>
+  <circle cx="420" cy="194" r="8" fill="#2563eb"/>
+  <circle cx="468" cy="130" r="8" fill="#2563eb"/>
+  <circle cx="516" cy="150" r="8" fill="#2563eb"/>
+  <line x1="122" y1="286" x2="536" y2="132" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+</svg>

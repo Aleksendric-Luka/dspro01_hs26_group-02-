@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Model Evaluation Dummy Plot</title>
+  <desc id="desc">A simple confusion matrix placeholder for model evaluation.</desc>
+  <rect width="640" height="400" fill="#f7f9fb"/>
+  <text x="320" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Model Evaluation</text>
+  <text x="320" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Confusion Matrix</text>
+  <text x="320" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Predicted Label</text>
+  <text x="64" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569" transform="rotate(-90 64 218)">Actual Label</text>
+  <rect x="178" y="118" width="140" height="100" fill="#16a34a"/>
+  <rect x="322" y="118" width="140" height="100" fill="#bfdbfe"/>
+  <rect x="178" y="222" width="140" height="100" fill="#bfdbfe"/>
+  <rect x="322" y="222" width="140" height="100" fill="#16a34a"/>
+  <rect x="178" y="118" width="284" height="204" fill="none" stroke="#334155" stroke-width="2"/>
+  <line x1="320" y1="118" x2="320" y2="322" stroke="#334155" stroke-width="2"/>
+  <line x1="178" y1="220" x2="462" y2="220" stroke="#334155" stroke-width="2"/>
+  <text x="248" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">42</text>
+  <text x="392" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1e3a8a">8</text>
+  <text x="248" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1e3a8a">6</text>
+  <text x="392" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">44</text>
+</svg>
