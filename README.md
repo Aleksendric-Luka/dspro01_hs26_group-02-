@@ -10,20 +10,24 @@
 
 | Name | Major task |
 |--------|------------|
-| Student 1 |            |
-| Student 2 |            |
-| Student 3 |            |
+| Simon |            |
+| Luka |            |
 
 
 ### Project Name
 
 > ⚠️ **Deliverable - 15.10.2026:** Define a project name.
 
+The Duck Curve Forecaster
+
 ### Pitch
 
 > ⚠️ **Deliverable - 15.10.2026:** Write a short pitch.
 
 *Write a 3 to 5 sentence pitch using [this](https://www.linkedin.com/posts/maabrahams_how-to-make-a-compelling-quick-pitch-activity-7179128237782970369-Qa6o/) as a guideline.*
+
+**Our Pitch:**
+What if energy planners could anticipate tomorrow’s midday dip and evening rise in Switzerland’s residual electricity demand? We will use machine learning, historical electricity data and archived weather forecasts to predict hourly demand remaining after solar generation, helping planners assess when flexible resources may be needed. For example, our dashboard will highlight the predicted midday trough and evening ramp, allowing storage and generation planners to prepare for changing power requirements. Beyond displaying forecasts, we will compare our model with a simple previous-week baseline and show its accuracy and limitations on unseen data.
 
 ---
 
