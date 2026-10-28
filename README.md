@@ -37,13 +37,17 @@ What if energy planners could anticipate tomorrow’s midday dip and evening ris
 
 > ⚠️ **Deliverable - 22.10.2026:** Write a short problem statement.
 
-*Describe the problem that should be solved in two sentences.*
+Due to the rapid expansion of photovoltaics in Switzerland, the residual load (grid load minus solar generation) drops massively at midday on sunny days, posing critical challenges for grid operators regarding grid stability and balancing power planning. Since the magnitude of this so-called "duck curve" effect depends heavily on short-term weather fluctuations, without precise day-ahead forecasting models based on weather forecasts, a reliable planning basis for operational congestion management on the following day is lacking.
 
 ## Goals
 
 > ⚠️ **Deliverable - 22.10.2026:** Formulate goals for you project.
 
-*Which goals are you aiming for? Define 2 to 4 goals. Goals should follow the [SMART](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) definition, with a focus on measurability.*
+- **Data Pipeline & Preprocessing:** Build an automated Python pipeline that merges hourly national electricity data (Fraunhofer Energy-Charts) with historical day-ahead weather forecasts (temperature_2m and shortwave_radiation from Open-Meteo/ECMWF IFS) from March 2024 to present, achieving 100% UTC timestamp alignment and handling missing values (null) across >14,000 hourly records.
+
+- **Predictive Modeling & Benchmarking:** Train and evaluate a regression model to predict Switzerland’s 24-hour day-ahead residual load, reducing the Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) on unseen test data by at least 10% compared to a naive previous-week baseline (same hour, 7 days prior).
+
+- **Interactive Dashboard Deployment:** Develop and deploy a functional Streamlit dashboard that visualizes the 24-hour predicted residual load curve alongside the baseline model, automatically highlighting the daily midday trough (minimum MW) and evening ramp rate (MW/h change), accompanied by a real-time error metric comparison table.
 
 ---
 
