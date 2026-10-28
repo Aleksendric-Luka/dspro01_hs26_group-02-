@@ -7,8 +7,8 @@ from zoneinfo import ZoneInfo
 # Define paths relative to the project folder
 # This script is located in src/data_preparation/
 project_root = Path(__file__).resolve().parents[2]
-input_path, output = project_root / 'data/raw data/weather-data_2025.json', project_root / 'data/clean data/weather-data_2025.json'
-output_path = output.with_name('weather-data_2025.csv')
+input_path, output = project_root / 'data/raw data/weather-data_2025.json', project_root / 'data/raw data/weather-data_2025.json'
+output_path = output.with_name('weather-data_2025_prep.csv')
 
 # Load JSON file
 with input_path.open(encoding='utf-8-sig') as file:
