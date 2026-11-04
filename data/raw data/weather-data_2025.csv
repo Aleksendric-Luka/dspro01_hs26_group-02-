@@ -1,4 +1,4 @@
-time,temperature_2m,shortwave_radiation,Location
+timestamp,temperature_2m,shortwave_radiation,Location
 2025-01-01 00:00:00,-1.5,0.0,Lat:47.34622_Lon:8.543372
 2025-01-01 01:00:00,-1.9,0.0,Lat:47.34622_Lon:8.543372
 2025-01-01 02:00:00,-3.2,0.0,Lat:47.34622_Lon:8.543372
