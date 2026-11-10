@@ -1,0 +1,14 @@
+# Core data science tools. Agree on the same Python minor version as a team.
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+jupyterlab
+ipykernel
+openpyxl
+pyarrow
+requests
+tqdm
